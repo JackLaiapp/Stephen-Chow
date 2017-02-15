@@ -376,6 +376,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="V5t-6s-i9X" kind="relationship" relationship="viewControllers" id="d4E-MN-HKl"/>
+                        <segue destination="NtA-lb-cGa" kind="relationship" relationship="viewControllers" id="kw2-Fj-E0k"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yIc-Mc-CT6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -434,6 +435,139 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhD-LU-ok0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2981.5999999999999" y="133.5832083958021"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Ar6-bv-fSX">
+            <objects>
+                <tableViewController id="EYZ-yO-OLG" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="148" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ttj-Np-dBf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="VAI-nb-EvR">
+                                <rect key="frame" x="0.0" y="28" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VAI-nb-EvR" id="QDU-Fb-Cn6">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="少林足球-2" translatesAutoresizingMaskIntoConstraints="NO" id="yvh-Le-bDA">
+                                            <rect key="frame" x="106" y="0.0" width="138" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你回火星吧，地球是很危險的。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKM-rC-xgk">
+                                            <rect key="frame" x="64" y="107" width="247" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="z2i-Re-4sy">
+                                <rect key="frame" x="0.0" y="176" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z2i-Re-4sy" id="O1S-ME-bbi">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="唐伯虎點秋香 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="B1d-t5-053">
+                                            <rect key="frame" x="106" y="0.0" width="138" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJK-T7-4xN">
+                                            <rect key="frame" x="34" y="107" width="283" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <string key="text">一個華安兩隻眼，三個姑娘 ... 六隻奶
+</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="kQc-45-kos">
+                                <rect key="frame" x="0.0" y="324" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kQc-45-kos" id="lJ6-oa-Fvg">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="九品芝麻官" translatesAutoresizingMaskIntoConstraints="NO" id="c8f-60-Jan">
+                                            <rect key="frame" x="106" y="0.0" width="138" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人來啊，落閘，放狗！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvT-PO-vvA">
+                                            <rect key="frame" x="86" y="106" width="179" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="zG6-CR-DTg">
+                                <rect key="frame" x="0.0" y="472" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zG6-CR-DTg" id="ppb-5g-T9O">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="功夫" translatesAutoresizingMaskIntoConstraints="NO" id="ZGX-2S-w8j">
+                                            <rect key="frame" x="106" y="0.0" width="138" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="別以為你長得帥我就不打你" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZC-8A-yaq">
+                                            <rect key="frame" x="68" y="106" width="214" height="19"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="i23-JB-McW">
+                                <rect key="frame" x="0.0" y="620" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i23-JB-McW" id="cB7-z8-j25">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="喜劇之王-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZSG-Fy-om9">
+                                            <rect key="frame" x="106" y="0.0" width="138" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="其實，我是一個演員。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWg-cc-sRJ">
+                                            <rect key="frame" x="64" y="107" width="247" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="EYZ-yO-OLG" id="G6K-7j-RJG"/>
+                            <outlet property="delegate" destination="EYZ-yO-OLG" id="xly-1n-sLl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Mtp-Xa-XcA"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bhw-lE-e54" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256.8" y="899.10044977511257"/>
         </scene>
         <!--第二題-->
         <scene sceneID="W1v-zH-ZAi">
@@ -494,7 +628,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3X-Qs-M3A" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2204" y="834.33283358320841"/>
+            <point key="canvasLocation" x="2204" y="901"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2gC-Gv-jKD">
@@ -528,7 +662,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zhf-8o-HZg" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2982" y="834"/>
+            <point key="canvasLocation" x="2982" y="900"/>
+        </scene>
+        <!--周星馳經典台詞-->
+        <scene sceneID="dXV-2E-HNx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NtA-lb-cGa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="周星馳經典台詞" id="E6M-Yp-fQI"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I8H-Ix-8Tr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EYZ-yO-OLG" kind="relationship" relationship="rootViewController" id="O8j-5R-Ih8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHW-Od-9vF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="900"/>
         </scene>
     </scenes>
     <resources>
@@ -538,7 +691,10 @@
         <image name="兩位姊姊，可憐可憐我吧！" width="500" height="288"/>
         <image name="功夫" width="567" height="340"/>
         <image name="唐伯虎點秋香" width="567" height="340"/>
+        <image name="唐伯虎點秋香 (1)" width="287" height="91"/>
+        <image name="喜劇之王-1" width="265" height="83"/>
         <image name="少林足球" width="400" height="300"/>
+        <image name="少林足球-2" width="375" height="97"/>
         <image name="打雷" width="680" height="989"/>
         <image name="濟公" width="567" height="340"/>
         <image name="聖旨" width="754" height="476"/>
