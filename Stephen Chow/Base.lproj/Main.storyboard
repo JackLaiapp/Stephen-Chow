@@ -313,7 +313,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="flU-Mi-dGS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="flU-Mi-dGS">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
@@ -322,6 +322,40 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9527-3" translatesAutoresizingMaskIntoConstraints="NO" id="bTw-Ha-bDa">
+                                <rect key="frame" x="67" y="121" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8C7-LA-gjz">
+                                <rect key="frame" x="94" y="511" width="206" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="9528" backgroundImage="聖旨">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="49H-7g-Fcb" kind="show" id="dil-LA-3XO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="請問，唐伯虎進入華府時他的終身代號為何？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D26-Ux-bzW">
+                                <rect key="frame" x="30" y="375" width="483" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Go-vf-ExG">
+                                <rect key="frame" x="94" y="404" width="206" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="9527" backgroundImage="聖旨">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PY1-PD-CrD" kind="show" id="2de-Zd-Pgb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -348,11 +382,11 @@
             </objects>
             <point key="canvasLocation" x="-623.20000000000005" y="136.28185907046478"/>
         </scene>
-        <!--Item-->
+        <!--星爺大會考-->
         <scene sceneID="DMW-Q7-4bd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V5t-6s-i9X" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="aC3-nR-n5F"/>
+                    <tabBarItem key="tabBarItem" title="星爺大會考" id="aC3-nR-n5F"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vBo-hi-Mb8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -379,14 +413,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="低能兒" translatesAutoresizingMaskIntoConstraints="NO" id="vo3-Oq-vk9">
-                                <rect key="frame" x="50" y="115" width="300" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="打雷" translatesAutoresizingMaskIntoConstraints="NO" id="vo3-Oq-vk9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="150"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="低能兒" translatesAutoresizingMaskIntoConstraints="NO" id="w9s-eo-byI">
+                                <rect key="frame" x="0.0" y="370" width="375" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -395,15 +433,115 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhD-LU-ok0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2982" y="134"/>
+            <point key="canvasLocation" x="2981.5999999999999" y="133.5832083958021"/>
+        </scene>
+        <!--第二題-->
+        <scene sceneID="W1v-zH-ZAi">
+            <objects>
+                <viewController id="PY1-PD-CrD" customClass="ViewController" customModule="Stephen_Chow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SzO-tb-ugo"/>
+                        <viewControllerLayoutGuide type="bottom" id="1wk-rP-zkI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yup-IQ-whw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="dmn-B6-WBG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="兩位姊姊，可憐可憐我吧！" translatesAutoresizingMaskIntoConstraints="NO" id="rnc-Bh-fn3">
+                                <rect key="frame" x="0.0" y="121" width="375" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mL8-1E-WqU">
+                                <rect key="frame" x="94" y="511" width="206" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="我一家三口" backgroundImage="聖旨">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AEq-fO-OHx" kind="show" id="MNF-C9-JNe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="賣身葬全家的那位仁兄，他家死了幾個人?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYz-cJ-UwO">
+                                <rect key="frame" x="30" y="375" width="483" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vd3-P6-xc0">
+                                <rect key="frame" x="94" y="404" width="206" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="我一家六口" backgroundImage="聖旨">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二題" id="e6c-ms-Kmc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3X-Qs-M3A" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="834.33283358320841"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2gC-Gv-jKD">
+            <objects>
+                <viewController id="AEq-fO-OHx" customClass="ViewController" customModule="Stephen_Chow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f0z-Dg-geS"/>
+                        <viewControllerLayoutGuide type="bottom" id="uYd-0m-CsM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qGu-fL-M52">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="打雷" translatesAutoresizingMaskIntoConstraints="NO" id="CUw-4y-Yhm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="低能兒" translatesAutoresizingMaskIntoConstraints="NO" id="iCU-6u-lpA">
+                                <rect key="frame" x="0.0" y="370" width="375" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="opJ-qz-HXQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zhf-8o-HZg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2982" y="834"/>
         </scene>
     </scenes>
     <resources>
+        <image name="9527-3" width="246" height="151"/>
         <image name="九品芝麻官" width="562" height="193"/>
         <image name="低能兒" width="560" height="317"/>
+        <image name="兩位姊姊，可憐可憐我吧！" width="500" height="288"/>
         <image name="功夫" width="567" height="340"/>
         <image name="唐伯虎點秋香" width="567" height="340"/>
         <image name="少林足球" width="400" height="300"/>
+        <image name="打雷" width="680" height="989"/>
         <image name="濟公" width="567" height="340"/>
+        <image name="聖旨" width="754" height="476"/>
+        <image name="背景" width="876" height="989"/>
     </resources>
 </document>
